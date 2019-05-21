@@ -180,7 +180,7 @@ PlaidLink.propTypes = {
   // auth, identity, income, transactions
   product: _propTypes2.default.arrayOf(_propTypes2.default.oneOf(['connect', // legacy product name
   'info', // legacy product name
-  'auth', 'identity', 'income', 'transactions'])).isRequired,
+  'auth', 'identity', 'income', 'transactions', 'assets'])).isRequired,
 
   // Specify an existing user's public token to launch Link in update mode.
   // This will cause Link to open directly to the authentication step for

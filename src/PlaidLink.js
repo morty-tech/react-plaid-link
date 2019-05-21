@@ -55,6 +55,7 @@ class PlaidLink extends Component {
         'identity',
         'income',
         'transactions',
+        'assets'
       ])
     ).isRequired,
 
